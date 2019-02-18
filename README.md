@@ -1,4 +1,6 @@
-A simple calculator project in Ruby, using too RSpec and Rubocop.
+# RubyCalculator
+
+A simple calculator project in Ruby, with tests using RSpec and lint using Rubocop.
 
 - Install dependencies:
 
