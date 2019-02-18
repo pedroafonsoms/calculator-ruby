@@ -1,0 +1,17 @@
+Layout/EmptyLinesAroundClassBody:
+  Exclude:
+    - 'src/calculator.rb'
+
+Layout/TrailingBlankLines:
+  Exclude:
+    - 'spec/calculator_spec.rb'
+    - 'src/calculator.rb'
+    - 'src/main.rb'
+
+Metrics/BlockLength:
+  Max: 30
+  ExcludedMethods: [describe, loop]
+
+Style/BlockComments:
+  Exclude:
+    - 'spec/spec_helper.rb'
